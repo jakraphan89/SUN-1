@@ -251,8 +251,9 @@
 
 .nav-footer:hover {
   
-  background-color: antiquewhite;
-  border-radius: 3px;
-  padding-left: 5px;
-  transition: 0.1s;
+  
+ 
+  padding-left: 2px;
+  border-left: 4px solid #ff6c00 ;
+  transition: 0.2s;
  }
