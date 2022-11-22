@@ -11,13 +11,15 @@
   <link href="assets/css/CustomCss/style.css" rel="stylesheet">
 
 
+
 </head>
 
 <body>
   <header>
+
+    <!-- Desktop Menu start -->
     <nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-sun1 text-uppercase">
       <div class="container-fluid px-3">
-
 
         <div class="d-none d-xl-block">
           <a href="index.html"><img src="./assets/media/icon/Logo-Sunsweet-Final_White.svg" width="60px"></a>
@@ -25,9 +27,6 @@
         <div id="Mobile-logo" class="d-xl-none my-2">
           <a href="index.html"><img src="./assets/media/icon/Logo-Sunsweet-Final_White.svg" width="60px"></a>
         </div>
-
-
-
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,39 +98,30 @@
             <a href="index-th.html"> <button class="btn btn-outline-light btn-sm" type="submit">ไทย</button></a>
             <a href="index.html"><button class="btn btn-outline-light btn-sm" type="submit">ENG</button></a>
           </div>
+          <!-- Desktop Menu end -->
+          
 
-
-
-          <!-- Mobile Menu -->
-
+          <!-- Mobile Menu start -->
           <nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-sun1 text-uppercase d-xl-none">
             <div class="container-fluid px-3">
 
-
-              <div class="d-none d-xl-block">
+              <div id="Mobile-logo" class="my-2">
                 <a href="index.html"><img src="./assets/media/icon/Logo-Sunsweet-Final_White.svg" width="60px"></a>
               </div>
-              <div id="Mobile-logo" class="d-xl-none my-2">
-                <a href="index.html"><img src="./assets/media/icon/Logo-Sunsweet-Final_White.svg" width="60px"></a>
-              </div>
-
-
-
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarCollapse" style="flex-grow: 0;">
-                <ul class="navbar-nav me-auto my-3 mb-md-0 fs-4">
+                <ul class="navbar-nav me-auto my-3 mb-md-0 fs-5">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door px-2 fs-1"></i>Home</a>
                   </li>
-
-                  <li class="nav-item dropdown border-top">
+                  <li class="nav-item border-top">
                     <a class="nav-link dropdown-toggle show active" href="#" data-bs-toggle="dropdown"
-                      aria-expanded="true">About</a>
-                    <ul class="dropdown-menu text-uppercase fs-4" data-bs-popper="static">
+                      aria-expanded="true"><i class="bi bi-info-square px-2 fs-1"></i>About</a>
+                    <ul class="dropdown-menu text-uppercase fs-5" data-bs-popper="static">
                       <li><a class="dropdown-item" href="Company History.html">Company history</a></li>
                       <li><a class="dropdown-item" href="Mission and vision.html">Mission and vision</a></li>
                       <li><a class="dropdown-item" href="Genaral information.html">Genaral information</a></li>
@@ -150,15 +140,15 @@
                     </ul>
                   </li>
                   <li class="nav-item border-top">
-                    <a class="nav-link active" href="Product.html">Product</a>
+                    <a class="nav-link active" href="Product.html"><i class="bi bi-cart4 px-2 fs-1"></i>Product</a>
                   </li>
                   <li class="nav-item border-top">
-                    <a class="nav-link active" href="Activity.html">Activity</a>
+                    <a class="nav-link active" href="Activity.html"><i class="bi bi-stars px-2 fs-1"></i>Activity</a>
                   </li>
-                  <li class="nav-item dropdown border-top">
+                  <li class="nav-item border-top">
                     <a class="nav-link dropdown-toggle show active" href="#" data-bs-toggle="dropdown"
-                      aria-expanded="true">Invester relations</a>
-                    <ul class="dropdown-menu" data-bs-popper="static">
+                      aria-expanded="true"><i class="bi bi-bar-chart px-2 fs-1"></i>Invester relations</a>
+                    <ul class="dropdown-menu fs-5" data-bs-popper="static">
                       <li><a class="dropdown-item" href="Shareholder information.html">SHAREHOLDER INFORMATION</a></li>
                       <li><a class="dropdown-item" href="Financial infomation.html">FINANCIAL INFOMATION</a></li>
                       <li><a class="dropdown-item" href="SET Announcements.html">SET ANNOUNCEMENTS</a></li>
@@ -171,38 +161,48 @@
                     </ul>
                   </li>
                   <li class="nav-item border-top">
-                    <a class="nav-link active" href="Career.html">Career</a>
+                    <a class="nav-link active" href="Career.html"><i class="bi bi-person-bounding-box px-2 fs-1"></i>Career</a>
                   </li>
                   <li class="nav-item border-top">
-                    <a class="nav-link active" href="Contact us.html">Contact us</a>
+                    <a class="nav-link active" href="Contact us.html">
+                      <i class="bi bi-phone-vibrate px-2 fs-1"></i>Contact us</a>
                   </li>
                 </ul>
 
-                <div class="mx-3 text-end">
-                  <a href="https://facebook.com/sunsweett/"><i class="bi bi-facebook h3 text-light px-1"></i></a>
+                <div class="text-end my-2 mx-4">
+                  <button class="btn btn-md btn-light" type="submit">ไทย</button>
+                  <button class="btn btn-md btn-light" type="submit">ENG</button>
+                </div>
+
+                <div class="text-center text-light">
+                  <h6>Sunsweet Public Company Limited</h6>
+                  <p> No. 9 , Moo 1 Toongsatok Sanpatong<br> Chiang Mai Thailand , 50120</p>
+                  <a class="nav-link" href="mailto:sunsweetthai@sunsweetthai.com"><h6>sunsweetthai@sunsweetthai.com</h6></a>
+                  <a class="nav-link" href="tel:+6653106538"><h4>Tel : 053 106 538</h4></a>
+                  
+                  <a class="nav-link" href="https://maps.google.com/maps?ll=18.611786,98.848133&z=18&t=m&hl=en&gl=TH&mapclient=embed&cid=4111095528828322187"><br><button class="btn btn-light text-sun">
+                    <i class="bi bi-geo-alt-fill px-1 fs-3"></i>LOCATION</button></a>
+                </div>
+
+                <div class="mx-3 text-center mt-4 mb-3" style="font-size: 3em; border-radius: 10px; border: 3px dashed #fff;" >
+                  <a href="https://facebook.com/sunsweett/"><i class="bi bi-facebook text-light px-1"></i></a>
                   <a href="https://www.instagram.com/sunsweetthai/"><i
-                      class="bi bi-instagram h3 text-light px-1 "></i></a>
+                      class="bi bi-instagram text-light px-1 "></i></a>
                   <a href="https://www.linkedin.com/company/sun-sweet-ltd/"><i
-                      class="bi bi-linkedin h3 text-light px-1 "></i></a>
-                  <a href="https://twitter.com/Sunsweetthai2"><i class="bi bi-twitter h3 text-light px-1 "></i></a>
+                      class="bi bi-linkedin text-light px-1 "></i></a>
+                  <a href="https://twitter.com/Sunsweetthai2"><i class="bi bi-twitter  text-light px-1 "></i></a>
                   <a href="https://www.youtube.com/channel/UCYkm4TZmv6roZ7TK2W_2exw/featured"><i
-                      class="bi bi-youtube h3 text-light px-1 "></i></a>
+                      class="bi bi-youtube text-light px-1 "></i></a>
+                      
                 </div>
+                
 
-
-                <div class="text-end my-4 mx-4">
-                  <button class="btn btn-light" type="submit">ไทย</button>
-                  <button class="btn btn-light" type="submit">ENG</button>
-                </div>
-
-
-
+                
               </div>
-              
-
             </div>
           </nav>
-          <!-- Mobile Menu -->
+          <!-- Mobile Menu end -->
+
   </header>
 </body>
 

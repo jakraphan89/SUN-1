@@ -1,0 +1,15 @@
+.nav-footer:hover {
+  
+    padding-left: 2px;
+    border-left: 4px solid #ff6c00 ;
+    transition: 0.2s;
+   }
+
+   .a-logo:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+  }
+
+  .bi:hover {
+    color: #ffc107 !important;
+  }
